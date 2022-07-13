@@ -1,3 +1,7 @@
-# 0.1.0+1
+# 0.0.1+1
 
-- TODO: Describe initial release.
+- Fix format in view
+
+# 0.0.1
+
+- Initial release
