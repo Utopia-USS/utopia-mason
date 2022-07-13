@@ -9,7 +9,7 @@ class {{{name.pascalCase()}}} extends HookWidget {
   static const route = '{{{route}}}';
   static final routeConfig = RouteConfig.material({{{name.pascalCase()}}}._);
 
-  const {{{name.pascalCase()}}}.();
+  const {{{name.pascalCase()}}}._();
   
   @override
   Widget build(BuildContext context) {
