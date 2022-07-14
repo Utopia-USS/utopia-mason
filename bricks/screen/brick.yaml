@@ -1,5 +1,6 @@
 name: utopia_screen
 description: Utopia USS - Screen template
+repository: https://github.com/Utopia-USS/utopia-mason/tree/master/bricks/screen
 
 version: 0.0.1+1
 
