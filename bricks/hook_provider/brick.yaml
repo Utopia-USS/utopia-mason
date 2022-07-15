@@ -1,0 +1,20 @@
+name: utopia_hook_provider
+description: Utopia USS - hook provider template
+repository: https://github.com/Utopia-USS/utopia-mason/tree/master/bricks/hook_provider
+
+version: 0.0.1+1
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Name of the screen
+    prompt: "Name:"
+  route:
+    type: string
+    description: Route
+    default: "/"
+    prompt: "Route:"
+
