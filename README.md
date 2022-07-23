@@ -10,7 +10,7 @@ $ flutter pub global activate mason_cli
 
 ## Usage
 
-### Utopia_screen
+## Utopia_screen
 
 ```
 project_root$ mason init
@@ -32,8 +32,7 @@ string: name
 ### structure:
 ```
 name/
-    name_state.dart
-        
+    name_state.dart   
 ```
 
 ## Utopia_flow
