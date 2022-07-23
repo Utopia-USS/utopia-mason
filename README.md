@@ -23,7 +23,17 @@ project_root$ mason make utopia_screen -o lib/screen/my_screen
 ```
 project_root$ mason init
 project_root$ mason add utopia_hook_provider
-your_diretory$ mason make utopia_hook_provider 
+your_directory$ mason make utopia_hook_provider 
+```
+### required params
+```
+string: name
+```    
+### structure:
+```
+name/
+    name_state.dart
+        
 ```
 
 ## Utopia_flow
@@ -31,7 +41,27 @@ your_diretory$ mason make utopia_hook_provider
 ```
 project_root$ mason init
 project_root$ mason add utopia_flow
-your_diretory$ mason make utopia_flow
+your_directory$ mason make utopia_flow
+```
+
+### required params
+```
+string: name
+```    
+### structure:
+    
+```
+flow/
+    state/
+        name_flow_state.dart
+    name_flow.dart
+    name_flow_routing.dart    
+        
+screen/ 
+    name/
+        state/
+        view/
+        name_screen.dart
 ```
 
 Add `.mason`, `mason.yaml` and `mason-lock.yaml` to `.gitignore`.
