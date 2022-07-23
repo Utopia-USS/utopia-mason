@@ -12,9 +12,4 @@ vars:
     type: string
     description: Name of the screen
     prompt: "Name:"
-  route:
-    type: string
-    description: Route
-    default: "/"
-    prompt: "Route:"
 
