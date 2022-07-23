@@ -8,7 +8,7 @@ Utopia USS - common patterns extracted as [mason](https://pub.dev/packages/mason
 $ flutter pub global activate mason_cli
 ```
 
-## Usage
+# Usage
 
 ## Utopia_screen
 
