@@ -1,4 +1,3 @@
-import 'package:utopia_arch/utopia_arch.dart';
 import 'package:utopia_hooks/utopia_hooks.dart';
 
 class {{{name.pascalCase()}}}State {
