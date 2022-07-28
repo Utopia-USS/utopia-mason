@@ -1,0 +1,15 @@
+name: utopia_flow
+description: Utopia USS - flow template
+repository: https://github.com/Utopia-USS/utopia-mason/tree/master/bricks/flow
+
+version: 0.0.1+1
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Name of the flow
+    prompt: "Name:"
+
